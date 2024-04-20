@@ -17,7 +17,7 @@ public class FraudCheckHistory {
     @Id
     @SequenceGenerator(
             name = "fraud_id_generator",
-            sequenceName = "fraud_id_seq",
+            sequenceName = "fraud_check_history_id_seq",
             allocationSize = 1
     )
     @GeneratedValue(
