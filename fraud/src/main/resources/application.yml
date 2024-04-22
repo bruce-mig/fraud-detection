@@ -10,7 +10,7 @@ spring:
     password: secret
     jpa:
       hibernate:
-        ddl-auto: create
+        ddl-auto: create-drop
       database: postgresql
       database-platform: org.hibernate.dialect.PostgreSQLDialect
       properties:
@@ -18,3 +18,10 @@ spring:
           dialect: org.hibernate.dialect.PostgreSQLDialect
           format_sql: true
       show-sql: true
+
+eureka:
+  instance:
+    hostname: localhost
+  client:
+    service-url:
+      defaultZone: http://localhost:8761/eureka
