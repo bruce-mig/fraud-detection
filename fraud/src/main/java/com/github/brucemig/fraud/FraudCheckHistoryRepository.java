@@ -1,6 +1,1 @@
-package com.github.brucemig.fraud;
-
-import org.springframework.data.jpa.repository.JpaRepository;
-
-public interface FraudCheckHistoryRepository extends JpaRepository<FraudCheckHistory, Integer> {
-}
+package com.github.brucemig.fraud;import org.springframework.data.jpa.repository.JpaRepository;public interface FraudCheckHistoryRepository extends JpaRepository<FraudCheckHistory, Integer> {}
