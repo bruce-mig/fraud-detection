@@ -1,1 +1,4 @@
-package com.github.brucemig.clients.fraud;public record FraudCheckResponse(Boolean isFraudster) {}
+package com.github.brucemig.clients.fraud;
+
+public record FraudCheckResponse(Boolean isFraudster) {
+}
